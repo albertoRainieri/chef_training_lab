@@ -13,7 +13,7 @@ action :create do
   # Define a hash of search and replace pairs
   # The keys are the lines to search for, and the values are the replacement content
   search_and_replace = {
-    '#Banner none' => 'Banner none',
+    '#Banner none' => 'Banner ' + file_path_banner,
     # Add more search and replace pairs as needed
   }
 
